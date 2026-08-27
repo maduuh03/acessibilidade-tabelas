@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabela com Scope</h1>
+     <table>
+        <tr>
+            <th rowspan="2" colspan="2">Tabela de vendas</th>
+            <th colspan="3" scope="colgroup">Quantidade vendida</th>
+        </tr>
+        <tr>
+            <th colspan="col">Francisco Beltrão</th>
+            <th colspan="col">Dois Vizinhos</th>
+            <th colspan="col">Pato Branco</th>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Produtos</th>
+            <th scope="rowgroup">Teclados</th>
+            <th>81</th>
+            <th>72</th>
+            <th>49</th>
+        </tr>
+        <tr>
+            <th>Mouses</th>
+            <th>93</th>
+            <th>14</th>
+            <th>59</th>
+        </tr>
+        <tr>
+            <th>MousePad</th>
+            <th>13</th>
+            <th>49</th>
+            <th>95</th>
+        </tr>
+    </table>
+
+    <br><h1>Tabela com Id e Headers</h1><br>
+     <table>
+        <tr>
+            <th rowspan="2" colspan="2">Tabela de vendas</th>
+            <th colspan="3">Quantidade vendida</th>
+        </tr>
+        <tr>
+            <th>Francisco Beltrão</th>
+            <th>Dois Vizinhos</th>
+            <th>Pato Branco</th>
+        </tr>
+        <tr>
+            <th rowspan="3">Produtos</th>
+            <th>Teclados</th>
+            <th>81</th>
+            <th>72</th>
+            <th>49</th>
+        </tr>
+        <tr>
+            <th>Mouses</th>
+            <th>93</th>
+            <th>14</th>
+            <th>59</th>
+        </tr>
+        <tr>
+            <th>MousePad</th>
+            <th>13</th>
+            <th>49</th>
+            <th>95</th>
+        </tr>
+    </table>
+</body>
+</html>
